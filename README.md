@@ -8,26 +8,6 @@ This project implements an **Information Retrieval (IR)** system in two parts, o
 
 Both parts utilize **Apache Lucene** for indexing and searching capabilities.
 
----
-
-## Directory Overview
-
-### `mri-webindexer-badillo-legide-main`
-- **Goal**: Create a multi-threaded indexing system for desktop search.
-- **Main Features**:
-  - Index files and directories with metadata such as paths, timestamps, sizes, etc.
-  - Support for partial index merging, configurable options, and custom term vector storage.
-  - Utilities to identify duplicates and analyze indexed terms.
-
-### `mri-searcher-badillo-legide-main`
-- **Goal**: Index and evaluate the **NPL Collection** using advanced retrieval models.
-- **Main Features**:
-  - Use of Jelinek-Mercer and Dirichlet smoothing for retrieval.
-  - Query evaluation with metrics like Precision, Recall, MAP, and MRR.
-  - Tools for parameter optimization and statistical comparison of models.
-  - Optional Dense Retrieval implementation for comparison with traditional methods.
-
----
 
 ## Features
 
